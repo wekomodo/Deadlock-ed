@@ -1,0 +1,5 @@
+package com.wekomodo.deadlockcompanion.data.remote.model.Heroes
+
+data class ScalingStats(
+    val ANY_ADDITIONAL_PROPERTY: ANYADDITIONALPROPERTYXXX
+)

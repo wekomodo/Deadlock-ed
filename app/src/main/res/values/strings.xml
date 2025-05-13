@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Deadlock Companion</string>
+    <string name="app_title">Deadlock\'ed</string>
+    <string name="screen_heroes">Heroes</string>
+    <string name="screen_items">Items</string>
+    <string name="refresh">refresh\n</string>
+</resources>

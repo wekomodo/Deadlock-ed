@@ -1,0 +1,31 @@
+package com.wekomodo.deadlockcompanion.data.remote.model.Heroes
+
+data class HeroesItem(
+    val assigned_players_only: Boolean,
+    val class_name: String,
+    val colors: Colors,
+    val complexity: Int,
+    val description: Description,
+    val disabled: Boolean,
+    val hero_stats_ui: HeroStatsUi,
+    val id: Int,
+    val images: Images,
+    val in_development: Boolean,
+    val item_slot_info: ItemSlotInfo,
+    val items: Items,
+    val level_info: LevelInfo,
+    val limited_testing: Boolean,
+    val name: String,
+    val needs_testing: Boolean,
+    val physics: Physics,
+    val player_selectable: Boolean,
+    val purchase_bonuses: PurchaseBonuses,
+    val recommended_ability_order: List<String>,
+    val recommended_upgrades: List<String>,
+    val scaling_stats: ScalingStats,
+    val shop_stat_display: ShopStatDisplay,
+    val skin: Int,
+    val standard_level_up_upgrades: StandardLevelUpUpgrades,
+    val starting_stats: StartingStats,
+    val stats_display: StatsDisplay
+)
