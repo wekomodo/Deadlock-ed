@@ -1,4 +1,4 @@
-import com.android.build.api.dsl.Packaging
+
 
 plugins {
     alias(libs.plugins.android.application)
@@ -6,6 +6,7 @@ plugins {
     alias(libs.plugins.kotlin.compose)
     alias(libs.plugins.kotlinAndroidKsp)
     alias(libs.plugins.hilt)
+    alias(libs.plugins.secrets.gradle)
 }
 
 hilt{
@@ -44,6 +45,7 @@ android {
     }
     buildFeatures {
         compose = true
+        buildConfig = true
     }
 }
 
